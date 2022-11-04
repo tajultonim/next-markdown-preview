@@ -16,9 +16,7 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - working-directory: core
-        run: |
-          npm run build
+      - run: npm run build
       - name: 📦 tajultonim/next-markdown-preview publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:

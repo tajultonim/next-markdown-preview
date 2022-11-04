@@ -13,7 +13,7 @@ import rehypeRewrite, { getCodeString, RehypeRewriteOptions } from 'rehype-rewri
 import { octiconLink } from './nodes/octiconLink';
 import { copyElement } from './nodes/copy';
 import { useCopied } from './plugins/useCopied';
-import './styles/markdown.less';
+// import './styles/markdown.less';
 
 import { reservedMeta } from './plugins/reservedMeta';
 
